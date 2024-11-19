@@ -17,7 +17,7 @@ public class class1Test {
 	void navigate() throws InterruptedException {
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.manage().window().maximize();
 	}
 	@Test (priority=0)
